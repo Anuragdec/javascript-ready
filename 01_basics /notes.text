@@ -1,0 +1,4 @@
+1.variable : const , let, var(not use in javascript because of scope problem )
+2. console.log   and console.table
+3.alert ka different syntax hota he
+4. "use strict"  humara code new ki trhs treat hoga engines ke dwara
