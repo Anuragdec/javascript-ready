@@ -13,13 +13,13 @@ promiseOne.then(function(){
 console.log("   _________");
 
 const promiseTwo= new Promise(function(resolve,reject){
-    setTimeout(function(){
+    setTimeout(function(){// ak function run karane diya he
         console.log("Data 2 update")
         let error=true;
-        if(!error){
-    resolve({name: "Anurag",age:15})
+        if(!error){// suppose koi erroe ni he
+    resolve({name: "Anurag",age:15})//resolve
         } 
-        else{ reject('spotted error')}
+        else{ reject('spotted error') }// reject
     },1000)
 }).then(function(user){
     console.log(user)
